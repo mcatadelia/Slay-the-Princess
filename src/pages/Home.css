@@ -1,0 +1,278 @@
+
+@font-face {
+    font-family: "Kelmscott Roman NF";
+    src: url('/src/assets/fonts/KelmscottRomanNF.ttf');
+  }
+
+#mobile {
+    display: none;
+}
+
+#home-background {
+    background-image: url('/src/assets/images/home.webp');
+    width: 100%;
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    z-index: -5;
+}
+
+.home-title {
+    font-family: "Kelmscott Roman NF";
+    font-size: 4.2vmax;
+    -webkit-text-stroke: 0.5vmax #000000;
+    margin-bottom: 1vmax;
+}
+
+.home-subtitle {
+    font-family: "Kelmscott Roman NF";
+    margin-top: 1.8vmax;
+    margin-bottom: 1.8vmax;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.59vmax;
+    -webkit-text-stroke: 0.3vmax #000000;
+}
+
+.endings-wrapper {
+    width: 21vw;
+    aspect-ratio: 3/1;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    display: grid;
+    gap: 0.8vw;
+    
+}
+
+.vessel-wrapper {
+    width: 84vw;
+    aspect-ratio: 12/2;
+    grid-template-columns: repeat(12, 1fr);
+    margin: auto;
+    display: grid;
+    gap: 0.8vw;
+    z-index: 7;
+}
+
+
+.princess {
+    background-size: contain;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    display: grid;
+}
+
+.home-text {
+    font-family: "Kelmscott Roman NF";
+    max-width: 45vw;
+    font-size: 1.6vmax;
+    background-color: none;
+    min-height: 8vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.8vmax;
+    -webkit-text-stroke: 0.2vw #000000;
+
+}
+
+#adversary {
+    background-image: url('/src/assets/images/chibis/adversary_idle.webp');
+}
+#adversary:hover {
+    background-image: url('/src/assets/images/chibis/adversary_hover.webp');
+}
+
+#tower { background-image: url('/src/assets/images/chibis/tower_idle.webp'); }
+#tower:hover { background-image: url('/src/assets/images/chibis/tower_hover.webp'); }
+
+#spectre { background-image: url('/src/assets/images/chibis/spectre_idle.webp'); }
+#spectre:hover { background-image: url('/src/assets/images/chibis/spectre_hover.webp'); }
+
+#nightmare { background-image: url('/src/assets/images/chibis/nightmare_idle.webp'); }
+#nightmare:hover { background-image: url('/src/assets/images/chibis/nightmare_hover.webp'); }
+
+#razor { background-image: url('/src/assets/images/chibis/razor_idle.webp'); }
+#razor:hover { background-image: url('/src/assets/images/chibis/razor_hover.webp'); }
+
+#beast { background-image: url('/src/assets/images/chibis/beast_idle.webp'); }
+#beast:hover { background-image: url('/src/assets/images/chibis/beast_hover.webp'); }
+
+#witch { background-image: url('/src/assets/images/chibis/witch_idle.webp'); }
+#witch:hover { background-image: url('/src/assets/images/chibis/witch_hover.webp'); }
+
+#stranger { background-image: url('/src/assets/images/chibis/stranger_idle.webp'); }
+#stranger:hover { background-image: url('/src/assets/images/chibis/stranger_hover.webp'); }
+
+#prisoner { background-image: url('/src/assets/images/chibis/prisoner_idle.webp'); }
+#prisoner:hover { background-image: url('/src/assets/images/chibis/prisoner_hover.webp'); }
+
+#damsel { background-image: url('/src/assets/images/chibis/damsel_idle.webp'); }
+#damsel:hover { background-image: url('/src/assets/images/chibis/damsel_hover.webp'); }
+
+#needle { background-image: url('/src/assets/images/chibis/needle_idle.webp'); }
+#needle:hover { background-image: url('/src/assets/images/chibis/needle_hover.webp'); }
+
+#fury { background-image: url('/src/assets/images/chibis/fury_idle.webp'); }
+#fury:hover { background-image: url('/src/assets/images/chibis/fury_hover.webp'); }
+
+#apotheosis { background-image: url('/src/assets/images/chibis/apotheosis_idle.webp'); }
+#apotheosis:hover { background-image: url('/src/assets/images/chibis/apotheosis_hover.webp'); }
+
+#dragon { background-image: url('/src/assets/images/chibis/dragon_idle.webp'); }
+#dragon:hover { background-image: url('/src/assets/images/chibis/dragon_hover.webp'); }
+
+#wraith { background-image: url('/src/assets/images/chibis/wraith_idle.webp'); }
+#wraith:hover { background-image: url('/src/assets/images/chibis/wraith_hover.webp'); }
+
+#clarity { background-image: url('/src/assets/images/chibis/clarity_idle.webp'); }
+#clarity:hover { background-image: url('/src/assets/images/chibis/clarity_hover.webp'); }
+
+#den { background-image: url('/src/assets/images/chibis/den_idle.webp'); }
+#den:hover { background-image: url('/src/assets/images/chibis/den_hover.webp'); }
+
+#wild { background-image: url('/src/assets/images/chibis/wild_idle.webp'); }
+#wild:hover { background-image: url('/src/assets/images/chibis/wild_hover.webp'); }
+
+#thorn { background-image: url('/src/assets/images/chibis/thorn_idle.webp'); }
+#thorn:hover { background-image: url('/src/assets/images/chibis/thorn_hover.webp'); }
+
+#cage { background-image: url('/src/assets/images/chibis/cage_idle.webp'); }
+#cage:hover { background-image: url('/src/assets/images/chibis/cage_hover.webp'); }
+
+#grey { background-image: url('/src/assets/images/chibis/grey_idle.webp'); }
+#grey:hover { background-image: url('/src/assets/images/chibis/grey_hover.webp'); }
+
+#happy { background-image: url('/src/assets/images/chibis/happy_idle.webp'); }
+#happy:hover { background-image: url('/src/assets/images/chibis/happy_hover.webp'); }
+
+#ch1 { background-image: url('/src/assets/images/chibis/ch1_idle.webp'); }
+#ch1:hover { background-image: url('/src/assets/images/chibis/ch1_hover.webp'); }
+
+#tlq { background-image: url('/src/assets/images/chibis/tlq_idle.webp'); }
+#tlq:hover { background-image: url('/src/assets/images/chibis/tlq_hover.webp'); }
+
+#finale { background-image: url('/src/assets/images/chibis/finale_idle.webp'); }
+#finale:hover { background-image: url('/src/assets/images/chibis/finale_hover.webp'); }
+
+.princess-wrapper-mobile {
+    width: 92vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    height: auto;
+    row-gap: 2em;
+    margin-bottom: 3em;
+}
+
+.title-wrapper {
+    grid-template-columns: 60vw 20vw;
+    display: grid;
+    align-content: center;
+    width: 80vw;
+    margin-left: 20vw;
+}
+
+.title-wrapper.header2 {
+    grid-template-columns: 40vw 10vw;
+    width: 65vw;
+    margin-left: 28.5vw;
+    align-content: center;
+}
+
+.arrow {
+    display: grid;
+    width: 15vw;
+    align-content: center;
+}
+
+.arrow-image {
+    background-image: url('/src/assets/collapse.png');
+    background-size: contain;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    display: grid;
+    
+}
+
+hr.home-mobile {
+    height: 1vw;
+    background-color: white;
+    border: none;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    width: 40vw;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 2em;
+}
+
+hr.home-mobile2 {
+    height: 0.5vh;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    width: 30vw;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 2em;
+}
+
+
+.home-header2 {
+    font-size: 6vw;
+    font-family: "Kelmscott Roman NF";
+    margin-top: 1.8vmax;
+    margin-bottom: 1.8vmax;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-text-stroke: 0.8vw #000000;
+    align-content: center;
+    
+}
+
+@media only screen and (orientation: portrait) {
+    #mobile {
+        display: block;
+        padding-top: 12vh;
+        padding-bottom: 12vh;
+    }
+    #home-background {
+        background-image: url('/src/assets/images/home-mobile.webp');
+        align-content: start;
+        background-attachment: fixed;
+    }
+    #desktop {
+        display: none;
+    }
+    .home-text {
+        text-align: left;
+        min-height: 100%;
+        min-width: 100%;
+
+        margin-left: none;
+        margin-right: none;
+        margin-top: 0;
+
+        align-content: center;
+
+        font-size: 4.8vw;
+        padding-left: 3vw;
+        -webkit-text-stroke: 0.35vw #000000;
+    }
+    .home-title {
+        font-size: 13vw;
+        -webkit-text-stroke: 1vw #000000;
+    }
+
+    .home-subtitle {
+        font-size: 8vw;
+        max-width: 90vw;
+        display: grid;
+        -webkit-text-stroke: 0.8vw #000000;
+    }
+}
